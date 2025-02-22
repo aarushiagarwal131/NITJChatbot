@@ -18,6 +18,22 @@
       ]
     },
     {
+      "tag": "admission",
+      "patterns": [
+        "How can I apply for admission?",
+        "What is the admission process?",
+        "I want to enroll in the college",
+        "Admission details",
+        "How do I get admission?",
+        "Tell me about admissions"
+      ],
+      "responses": [
+        "To secure admission into NIT Jalandhar, you must qualify for a national-level entrance exam and participate in JoSAA counseling. For BTech, you need to clear JEE Main; for MTech, GATE; for MSc, IIT JAM; and for MBA, CAT. The process involves registering on the exam's official website, filling out the application form, uploading required documents, paying the fee, and then participating in JoSAA counseling. For further details, please visit <a href='https://nitj.ac.in/admissions/index.html' target='_blank'>NIT Jalandhar Admissions</a>.",
+        "Admission at NIT Jalandhar requires you to clear a national-level entrance exam and then take part in the Joint Seat Allocation Authority (JoSAA) counseling. Depending on the program—JEE Main for BTech, GATE for MTech, IIT JAM for MSc, or CAT for MBA—you must follow the steps: register on the official website, complete the application form, upload scanned documents, pay the fees, and attend JoSAA counseling. More info can be found at <a href='https://nitj.ac.in/admissions/index.html' target='_blank'>NIT Jalandhar Admissions</a>.",
+        "For admission into NIT Jalandhar, you must qualify for a national-level entrance exam (JEE Main for BTech, GATE for MTech, IIT JAM for MSc, or CAT for MBA) and then participate in JoSAA counseling, which allocates seats based on exam performance. The steps include registering on the exam website, filling out the application, uploading documents, paying the fee, and joining the counseling session. Additional programs like the Direct Admission Students Abroad (DASA) scheme and the Cultural Exchange Programme are also available. Please visit <a href='https://nitj.ac.in/admissions/index.html' target='_blank'>NIT Jalandhar Admissions</a> for more details."
+      ]
+    },
+    {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
@@ -46,7 +62,7 @@
         "tell more about holidays",
         "holidays when ???",
         "which days are holidays ?",
-        "How many days can we get after seach sem ?" ,
+        "How many days can we get after seach sem ?",
         "Can we get study leave ?",
         "what are the biggest holidays we can get ??",
         "Are there any department wise special holiday ?"
@@ -64,7 +80,7 @@
         "what are the teachers ?",
         "tell more about the teachers",
         "narula teachers",
-        "who is the the principal and what about the placement officer??" 
+        "who is the the principal and what about the placement officer??"
       ],
       "responses": [
         "Our Prinicipal is Dr. Maitreyi Ray Kanjilal \n Our Placement Cell has Biswarup Bhattacharjee , Abhijit Nandy , Debanjan Mitra. "
@@ -80,9 +96,9 @@
         "What is BCA ?",
         "When do BTECH gets completed ?",
         "How long does MCA take ?",
-        "which Course are best here ?" ,
-        "what about the fees Stucture ?" ,
-        "Are there any medical course ?" ,
+        "which Course are best here ?",
+        "what about the fees Stucture ?",
+        "Are there any medical course ?",
         "how many time will take to complete those course ?"
       ],
       "responses": ["Course related queries", "MCA takes 2years"]
@@ -160,4 +176,3 @@
     }
   ]
 }
-
