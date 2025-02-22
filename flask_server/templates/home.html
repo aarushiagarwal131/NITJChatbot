@@ -55,15 +55,15 @@
           <!-- Chat section -->
           <div class="chat-messages">
             <div class="chat-message incoming-message">
-              👋 Hello, I am College Enquiry Bot
+              👋 Hello, I am NITJ College Enquiry Chatbot
             </div>
             <div class="chat-message incoming-message">
               Ask me anything related to :
               <ol>
-                <li>Semester wise result 📜📚</li>
-                <li>Faculty 🧑‍🏫👩‍🏫</li>
-                <li>Holidays 🥳</li>
-                <li>Joke 😃</li>
+                <li>About NITJ</li>
+                <li>Faculty</li>
+                <li>Holidays</li>
+                <li>Courses</li>
                 <li>etc...</li>
               </ol>
             </div>
@@ -105,9 +105,13 @@
       <div class="button-container">
         <button onclick="toggleChatBot()" class="chat-open-btn">
           <img
-            src="https://cdn.onlinewebfonts.com/svg/img_397748.png"
+            src="{{ url_for('static', filename='NITJchatlogo-unscreen.gif') }}"
             alt="chat bot"
           />
+          <!-- <img
+            src="https://cdn.onlinewebfonts.com/svg/img_397748.png"
+            alt="chat bot"
+          /> -->
         </button>
       </div>
     </div>

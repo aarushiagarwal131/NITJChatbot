@@ -34,6 +34,9 @@ in VS Code, run `Ctrl+Shift+P` ,s earch for _Create environment_ & create one. *
 2. In terminal run this command `set FLASK_APP=run.py`
 3. In terminal run this command `py train.py`
 
+<!-- set FLASK_ENV=development
+flask run -->
+
 ## Finally you can use the project
 
 1. In terminal run this command `flask run --host=0.0.0.0 --port=5000`
